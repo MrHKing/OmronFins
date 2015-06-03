@@ -1,0 +1,31 @@
+﻿生成启动时间为 2015/5/7 9:07:17。
+     1>项目“D:\例子程序和资料\测试程序\OmronFins\OmronFins\OmronFins.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\OmronFins.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt COmronFins.cpp
+         COmronFins.cpp
+     1>d:\例子程序和资料\测试程序\omronfins\omronfins\comronfins.h(34): warning C4099: “Omron::CCommunicationPLC”: 类型名称以前使用“struct”现在使用的是“class”
+                 d:\例子程序和资料\测试程序\omronfins\omronfins\communicationplc.h(29) : 参见“Omron::CCommunicationPLC”的声明
+     1>d:\例子程序和资料\测试程序\omronfins\omronfins\comronfins.cpp(136): warning C4101: “buffMel”: 未引用的局部变量
+     1>d:\例子程序和资料\测试程序\omronfins\omronfins\comronfins.cpp(201): warning C4101: “wSendBuf”: 未引用的局部变量
+     1>d:\例子程序和资料\测试程序\omronfins\omronfins\comronfins.cpp(200): warning C4101: “dwWflag”: 未引用的局部变量
+     1>d:\例子程序和资料\测试程序\omronfins\omronfins\comronfins.cpp(202): warning C4101: “ssid”: 未引用的局部变量
+     1>d:\例子程序和资料\测试程序\omronfins\omronfins\comronfins.cpp(200): warning C4101: “dwFlag”: 未引用的局部变量
+     1>d:\例子程序和资料\测试程序\omronfins\omronfins\comronfins.cpp(200): warning C4101: “dwSend”: 未引用的局部变量
+     1>d:\例子程序和资料\测试程序\omronfins\omronfins\comronfins.cpp(200): warning C4101: “nTransfer”: 未引用的局部变量
+     1>d:\例子程序和资料\测试程序\omronfins\omronfins\comronfins.cpp(202): warning C4101: “rsid”: 未引用的局部变量
+     1>d:\例子程序和资料\测试程序\omronfins\omronfins\comronfins.cpp(201): warning C4101: “wRecvBuf”: 未引用的局部变量
+     1>d:\例子程序和资料\测试程序\omronfins\omronfins\comronfins.cpp(200): warning C4101: “dwRecv”: 未引用的局部变量
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\例子程序和资料\测试程序\OmronFins\Debug\OmronFins.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\例子程序和资料\测试程序\OmronFins\Debug\OmronFins.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\例子程序和资料\测试程序\OmronFins\Debug\OmronFins.lib" /MACHINE:X86 Debug\OmronFins.res
+         Debug\CommunicationPLC.obj
+         Debug\COmronFins.obj
+         Debug\OmronFins.obj
+         Debug\OmronFinsDlg.obj
+         Debug\Socket.obj
+         Debug\stdafx.obj
+         OmronFins.vcxproj -> D:\例子程序和资料\测试程序\OmronFins\Debug\OmronFins.exe
+     1>已完成生成项目“D:\例子程序和资料\测试程序\OmronFins\OmronFins\OmronFins.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.90
